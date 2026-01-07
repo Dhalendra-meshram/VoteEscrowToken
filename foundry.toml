@@ -1,0 +1,17 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# -----------------------------
+# OPTIMIZER SETTINGS (CRITICAL)
+# -----------------------------
+optimizer = true
+optimizer_runs = 10000  # optimizing for long-term execution cost
+via_ir = true           # REQUIRED for advanced Yul optimization
+
+# -----------------------------
+# TESTING SETTINGS
+# -----------------------------
+verbosity = 3           # See more logs by default
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
