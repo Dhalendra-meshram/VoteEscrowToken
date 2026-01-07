@@ -1,3 +1,7 @@
+# veToken-contract
+
+veToken smart contract for vote-escrowed token mechanics
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
@@ -19,6 +23,7 @@ https://book.getfoundry.sh/
 
 ```shell
 $ forge build
+
 ```
 
 ### Test
@@ -64,3 +69,5 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+=======
+
