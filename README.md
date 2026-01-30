@@ -67,8 +67,9 @@ Scheduled slope changes → future decay
 
 This design allows efficient queries without iterating over all users, keeping gas costs predictable.
 
+---
 
-**Features**
+## Features
 
 Time-locked voting power
 
@@ -86,9 +87,9 @@ Governance-focused design
 
 Flash-loan resistant
 
+---
 
-
-**Security Design**
+## Security Design
 
 This contract was designed with governance security as a primary goal.
 
@@ -102,8 +103,9 @@ Threats Considered
 | Supply recomputation attacks  | Checkpointing avoids full iteration     |
 | Griefing via micro-locks      | Aggregated slope logic prevents spam    |
 
+---
 
-**Why Linear Decay?**
+## Why Linear Decay?
 
 Linear decay creates predictable and fair governance behavior:
 
@@ -117,9 +119,9 @@ No sudden cliffs or discontinuities
 
 This results in smoother governance dynamics and long-term alignment.
 
+---
 
-
-**Gas Optimization**
+## Gas Optimization
 
 This contract is optimized for long-term gas efficiency:
 
@@ -133,8 +135,9 @@ Compiled with Solidity optimizer + IR mode
 
 Optimized for frequent read operations
 
+---
 
-**Tech Stack**
+## Tech Stack
 
 Solidity
 
@@ -144,6 +147,7 @@ Optimizer + IR compilation
 
 Modular storage design
 
+---
 
 ### Build
 
@@ -196,7 +200,7 @@ $ anvil --help
 $ cast --help
 ```
 
-**Author**
+## Author
 
 Dhalendra Meshram
 Smart Contract Developer
