@@ -199,9 +199,10 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
-
+---
 ## Author
 
-Dhalendra Meshram
+## Dhalendra Meshram
+
 Smart Contract Developer
 Solidity • DeFi • Governance Systems
